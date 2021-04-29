@@ -1,0 +1,41 @@
+﻿@model IEnumerable<InikoChallenge.Models.Data.EmplSkills>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EmplID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SkillID)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmplID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SkillID)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.RelationID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.RelationID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.RelationID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InikoChallenge", "InikoChallenge\InikoChallenge.csproj", "{31E2DEB7-CB96-45A9-B05C-47150AEBC470}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31E2DEB7-CB96-45A9-B05C-47150AEBC470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E2DEB7-CB96-45A9-B05C-47150AEBC470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E2DEB7-CB96-45A9-B05C-47150AEBC470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E2DEB7-CB96-45A9-B05C-47150AEBC470}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D5EAB44-28C1-4B5B-90AE-73F2ED1260ED}
+	EndGlobalSection
+EndGlobal
